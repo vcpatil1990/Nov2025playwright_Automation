@@ -1,0 +1,46 @@
+<testsuites id="" name="" tests="1" failures="1" skipped="0" errors="0" time="132.022606">
+<testsuite name="loginpage.spec.js" timestamp="2025-12-28T06:30:50.305Z" hostname="chromium" tests="1" failures="1" skipped="0" time="116.29" errors="0">
+<testcase name="Orange HRM Application Login Page" classname="loginpage.spec.js" time="116.29">
+<failure message="loginpage.spec.js:3:1 Orange HRM Application Login Page" type="FAILURE">
+<![CDATA[  [chromium] › loginpage.spec.js:3:1 › Orange HRM Application Login Page ───────────────────────────
+
+    Test timeout of 30000ms exceeded.
+
+    Error: page.waitForTimeout: Test timeout of 30000ms exceeded.
+
+      10 |     await page.waitForTimeout(4000)
+      11 |     await page.locator("//button[@type='submit']").click();
+    > 12 |     await page.waitForTimeout(4000)
+         |                ^
+      13 |
+      14 |
+      15 |
+        at C:\Users\Shree\Desktop\NovPlaywright2025\tests\loginpage.spec.js:12:16
+
+    attachment #1: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\loginpage-Orange-HRM-Application-Login-Page-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\loginpage-Orange-HRM-Application-Login-Page-chromium\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\test-results\loginpage-Orange-HRM-Application-Login-Page-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\test-results\loginpage-Orange-HRM-Application-Login-Page-chromium\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\loginpage-Orange-HRM-Application-Login-Page-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\loginpage-Orange-HRM-Application-Login-Page-chromium\error-context.md]]
+
+[[ATTACHMENT|test-results\loginpage-Orange-HRM-Application-Login-Page-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

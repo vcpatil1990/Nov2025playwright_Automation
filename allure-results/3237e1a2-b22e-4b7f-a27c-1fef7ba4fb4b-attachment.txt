@@ -1,0 +1,12 @@
+{
+  id: 'ff8081819782e69e019b374e463332e6',
+  name: 'VIVO v50',
+  updatedAt: '2025-12-19T15:53:12.050+00:00',
+  data: {
+    year: 2000,
+    price: 10000,
+    'CPU model': 'Intel Core i8',
+    'Hard disk size': '1 TB',
+    color: 'red'
+  }
+}

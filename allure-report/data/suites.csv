@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","17951","Get Data from CSV 3","chromium","2025-12-18","passed","2025-12-18","","readcsv.spec.js","",""
+"","18411","Get Data from CSV 1","chromium","2025-12-18","passed","2025-12-18","","readcsv.spec.js","",""
+"","16912","Get Data from CSV 2","chromium","2025-12-18","passed","2025-12-18","","readcsv.spec.js","",""

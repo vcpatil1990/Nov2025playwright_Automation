@@ -1,0 +1,11 @@
+
+RestAssured-
+
+RestAssured is an API/Library through which we can automate RestAPIs
+
+Pre-requisites
+
+1)Java 9+& Eclipse
+2)TestNG
+3)Maven (Comes with Eclipse)
+

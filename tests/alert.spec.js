@@ -10,10 +10,10 @@ test('simple alert box ', async ({ page }) => {
         await page.waitForTimeout(3000);
         await dialog.accept();
     })
-    await page.waitForTimeout(4000);
+    
     const alertbutton = await page.locator("//button[text()='Simple Alert']")
     await alertbutton.click();
-    await page.waitForTimeout(4000);
+    
 
 })
 
